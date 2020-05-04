@@ -10,5 +10,9 @@
 
 from react_flask import React
 
+
 def setup():
     react = React()
+
+    # placeholder
+    assert True == True
