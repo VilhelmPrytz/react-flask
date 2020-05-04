@@ -1,7 +1,7 @@
 React
 =====
 
-.. py:module:: react_flask.react
+.. py:module:: react_flask
 
 .. py:class:: React
 

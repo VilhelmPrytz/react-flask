@@ -15,6 +15,19 @@ from os.path import isdir
 
 class React:
     def __init__(self, templates_folder="templates", precache=True, render_all=True):
+        """
+        Initiates react-flask
+
+        Args:
+            templates_folder (str): Name of folder where templates are stored.
+            precache (bool): Build React components and save them in memory before serving (prod).
+            render_all (bool): Render all .js files in templates folder.
+
+        Raises:
+            :py:class:`FileNotFoundError`
+                If templates folder does not exist
+        """
+
         self._files = []
 
         if not isdir(templates_folder):
