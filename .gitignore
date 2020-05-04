@@ -1,6 +1,11 @@
 # Python
 __pycache__
 *.pyc
+react_flask.egg-info
+.tox
+.eggs
+build
+dist
 
 # while working with rendering for development
 templates
