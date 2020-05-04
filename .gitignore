@@ -1,0 +1,9 @@
+# Python
+__pycache__
+*.pyc
+
+# while working with rendering for development
+templates
+
+# IDEs
+.vscode
